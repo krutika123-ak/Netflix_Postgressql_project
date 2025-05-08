@@ -132,8 +132,8 @@ from netflix group by 1
 
 ## 15 . Categarize the content based on the present of keyword 'kill' and 'violence' in the description field.Label the content containing these keywords as 'bad_content' and 'good_content' .Count how many item fall into each category
 
-with new_table 
-as (
+	with new_table 
+	as (
 	select *,
 	case 
 	when 
